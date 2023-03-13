@@ -24,7 +24,7 @@ class SettingsClass extends StatelessWidget {
           padding: const EdgeInsets.all(10),
           child: ListView(
             children: [
-              // user card
+              
               SmallUserCard(cardColor: Color(0xFF2E2C71), userName: 'John \nDoe', userProfilePic: AssetImage("assets/images/profilepic.jpg",), onTap: (){}),
 
               SettingsGroup(
@@ -34,7 +34,7 @@ class SettingsClass extends StatelessWidget {
                     icons: CupertinoIcons.pencil_outline,
                     iconStyle: IconStyle(),
                     title: 'Appearance',
-                    subtitle: "Make Ziar'App yours",
+                    subtitle: "Make Zarity'App yours",
                   ),
                   SettingsItem(
                     onTap: () {},
@@ -45,7 +45,7 @@ class SettingsClass extends StatelessWidget {
                       backgroundColor: Colors.red,
                     ),
                     title: 'Privacy',
-                    subtitle: "Lock Ziar'App to improve your privacy",
+                    subtitle: "Lock Zarity'App to improve your privacy",
                   ),
                   SettingsItem(
                     onTap: () {},
@@ -73,11 +73,11 @@ class SettingsClass extends StatelessWidget {
                       backgroundColor: Colors.purple,
                     ),
                     title: 'About',
-                    subtitle: "Learn more about Ziar'App",
+                    subtitle: "Learn more about Zarity'App",
                   ),
                 ],
               ),
-              // You can add a settings title
+              
               SettingsGroup(
                 settingsGroupTitle: "Account",
                 settingsGroupTitleStyle: TextStyle(color: Colors.white,fontSize: 25,fontWeight: FontWeight.w600),
